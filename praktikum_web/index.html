@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #d3d3d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        background-color: white;
+        border-radius: 15px;
+        overflow: hidden;
+        width: 800px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      .image-section {
+        width: 50%;
+        background: url(https://untidar.ac.id/wp-content/uploads/2018/11/BENDERA-UNTIDAR-oyee.TEKNIK-741x484.jpg)
+          no-repeat center center;
+        background-size: cover;
+      }
+      .login-section {
+        width: 50%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .login-section h2 {
+        margin-bottom: 20px;
+      }
+      .login-section input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .login-section button {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .help {
+        margin-top: 10px;
+        font-size: 14px;
+      }
+      .help a {
+        color: blue;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-section"></div>
+      <div class="login-section">
+        <h2>Sign into your account</h2>
+        <input type="text" placeholder="Username..." />
+        <input type="password" placeholder="************" />
+        <button>Login</button>
+        <p class="help">Butuh bantuan? hubungi <a href="#">admin</a></p>
+      </div>
+    </div>
+  </body>
+</html>
